@@ -42,3 +42,32 @@ Hello, dalong!
 Hello, dalong!
 Hello, dalong!
 ```
+
+## publish to test pypip
+
+> use venv 
+
+* install dep pacakges
+
+```code
+python -m pip install --user --upgrade setuptools wheel --no-warn-script-location
+```
+
+* build dist files
+
+```code
+python3 setup.py sdist
+```
+
+* push
+
+> you may register one account from [website](https://test.pypi.org)
+
+```code
+install twine  for push:
+
+python3 -m pip install --user --upgrade twine
+
+push command:
+twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+```

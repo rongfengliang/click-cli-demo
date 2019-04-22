@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="dalongrong_cli-demo",
-    version="0.0.2",
+    version="0.0.3",
     author="dalongrong",
     author_email="1141591465@qq.com",
     description="a simple cli project",
