@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="dalongrong_cli-demo",
-    version="0.0.1",
+    version="0.0.2",
     author="dalongrong",
     author_email="1141591465@qq.com",
     description="a simple cli project",
@@ -18,6 +18,12 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    project_urls={
+        'Documentation': 'https://github.com/rongfengliang/click-cli-demo.git',
+        'Say Thanks!': 'https://github.com/rongfengliang/click-cli-demo.git',
+        'Source': 'https://github.com/rongfengliang/click-cli-demo.git',
+        'Tracker': 'https://github.com/rongfengliang/click-cli-demo.git',
+    },
     entry_points={
         'console_scripts': [
             'dalongcli=cli:hello',

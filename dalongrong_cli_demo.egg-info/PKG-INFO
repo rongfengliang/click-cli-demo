@@ -1,11 +1,15 @@
 Metadata-Version: 2.1
 Name: dalongrong-cli-demo
-Version: 0.0.1
+Version: 0.0.2
 Summary: a simple cli project
 Home-page: https://github.com/rongfengliang/click-cli-demo.git
 Author: dalongrong
 Author-email: 1141591465@qq.com
 License: UNKNOWN
+Project-URL: Documentation, https://github.com/rongfengliang/click-cli-demo.git
+Project-URL: Say Thanks!, https://github.com/rongfengliang/click-cli-demo.git
+Project-URL: Source, https://github.com/rongfengliang/click-cli-demo.git
+Project-URL: Tracker, https://github.com/rongfengliang/click-cli-demo.git
 Description: # simple cli demo project
         
         
