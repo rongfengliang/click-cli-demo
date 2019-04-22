@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: dalongrong-cli-demo
+Version: 0.0.1
+Summary: a simple cli project
+Home-page: https://github.com/rongfengliang/click-cli-demo.git
+Author: dalongrong
+Author-email: 1141591465@qq.com
+License: UNKNOWN
+Description: # simple cli demo project
+        
+        
+        ## how to running
+        
+        * init venv
+        
+        ```code
+        python3 -m venv .
+        ```
+        
+        * install click pacakge
+        
+        * activate venv
+        
+        ```code
+        source bin/activate
+        ```
+        
+        * install click pacakge
+        
+        ```code
+        pip install click
+        ```
+        
+        * install with pip pacakge for test
+        
+        ```code
+        pip install .
+        ```
+        
+        * test cli
+        
+        ```code
+        dalongcli --name dalong --count 3
+        ```
+        
+        result
+        
+        ```code
+        Hello, dalong!
+        Hello, dalong!
+        Hello, dalong!
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
